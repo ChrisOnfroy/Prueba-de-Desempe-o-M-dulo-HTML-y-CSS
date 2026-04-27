@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shattered Riffs</title>
+    <link rel="shortcut icon" href="./assets/icons/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__content">
+            <h1 class="logo">Shattered Riffs</h1>
+
+            <nav class="nav" aria-label="Principal">
+                <ul id="menu">
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#media">Media</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button id="menuBtn" class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false">
+                <img src="/performance-test-M2/assets/img/menu_34dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" alt="">
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero__overlay">
+                <div class="title_one">
+                    <h2>Rock the Night - </h2>
+                    <p> Upcoming Tour</p>
+
+                </div>
+                <div class="btn_one">
+                    <a href="#events" class="btn">View Events</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- EVENTS -->
+        <section id="events" class="events container">
+            <h2>Upcoming Events</h2>
+
+            <div class="direction_table">
+                <table class="events__table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>City</th>
+                            <th>Venue</th>
+                            <th>Tickets</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>15 May</td>
+                            <td>Madrid</td>
+                            <td>Sala Sol</td>
+                            <td><button>Buy</button></td>
+                        </tr>
+                        <tr>
+                            <td>18 May</td>
+                            <td>Barcelona</td>
+                            <td>Razzmatazz</td>
+                            <td><button>Buy</button></td>
+                        </tr>
+                        <tr>
+                            <td>22 May</td>
+                            <td>Valencia</td>
+                            <td>Moon Club</td>
+                            <td><button>Buy</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about container">
+
+            <div class="about__content">
+                <div class="image_responsive">
+                    <img src="./assets/img/img-1.jpg" alt="Band photo">
+                </div>
+                <div class="article_responsive">
+                    <h2>About the Band</h2>
+                    <article>
+                        <p>
+                            Shattered Riffs is a high-energy rock band known for powerful live performances
+                            and raw sound.
+                        </p>
+
+                        <!-- Required list -->
+                        <h3>Our Influences</h3>
+                        <ul>
+                            <li>Classic Rock</li>
+                            <li>Hard Rock</li>
+                            <li>Alternative</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEDIA -->
+        <section id="media" class="media container">
+            <h2>Multimedia</h2>
+            <div class="content_media">
+                <div class="video_media">
+                    <button class="trailer-player" type="button" data-trailer-button data-video-id="iywaBOMvYLI"
+                        aria-label="Music">
+                        <span class="trailer-media" data-trailer-media>
+                            <img src="/performance-test-M2/assets/img/img-2.jpg"
+                                alt="Toxity - system of a down">
+                        </span>
+                        <span class="trailer-play">
+                            <span class="play-icon"></span>
+                            hear music
+                        </span>
+                    </button>
+                </div>
+                <div class="media__grid">
+                    <div class="img_1">
+                        <img src="./assets/img/img-1.jpg" alt="">
+                    </div>
+                    <div class="img_2">
+                        <img src="./assets/img/img-3.jpg" alt="">
+                    </div>
+                    <div class="img_3">
+                        <img src="./assets/img/img-4.jpg" alt="">
+                    </div>
+                    <div class="img_4">
+                        <img src="./assets/img/img-5.jpg" alt="">
+                    </div>
+                    <div class="img_5">
+                        <img src="./assets/img/img-6.jpg" alt="">
+                    </div>
+                    <div class="img_6">
+                        <img src="./assets/img/img-7.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="footer">
+        <div class="container footer__content">
+            <p>© <span id="year"></span> Shattered Riffs</p>
+
+            <!-- Another possible list -->
+            <ul class="social">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Spotify</a></li>
+                <li><a href="#">YouTube</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
